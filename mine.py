@@ -1,0 +1,2 @@
+print('ok')
+name='wyf'
