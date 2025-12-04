@@ -23,11 +23,14 @@ int main()
     puts("");
     printf("Year     Course Fee\n");
     int cnt=1;
+    double ans=0;
     do
     {
+        ans+=fee;
         printf(" %d       RM %.2f\n",cnt,fee);
         fee*=1.05;
     }while(++cnt<=dur);
     printf("-----------------------------------\n");
+    printf("Total Course Fees : RM %.2f",ans);
     return 0;
 }
