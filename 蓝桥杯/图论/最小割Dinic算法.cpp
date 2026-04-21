@@ -108,7 +108,7 @@ int main()
     puts("");
     for(int i=1;i<=n;i++)
     {
-        if(!vis[i]) printf("%d",i);
+        if(!vis[i]) printf("%d ",i);
     }
     */
     return 0;
